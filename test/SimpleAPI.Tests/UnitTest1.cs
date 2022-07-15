@@ -23,5 +23,11 @@ public class UnitTest1
         var arr1 = controller.Get(1,2);
         Assert.Matches("ravikant",arr1.ToString());
     }
+[Fact]
+ public void getTest2()
+    {
+        var arr1 = controller.Get(1,2,3);
+        Assert.Matches("ravikant",arr1.ToString());
+    }
 
 }
