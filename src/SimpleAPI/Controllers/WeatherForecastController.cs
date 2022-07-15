@@ -38,5 +38,10 @@ public class WeatherForecastController : ControllerBase
     {
         return "ravikant";
     }
+    
+ public string  Get(int i, int j, int k)
+    {
+        return "kathmandu";
+    }
 
    }
