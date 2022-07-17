@@ -27,7 +27,7 @@ public class UnitTest1
  public void getTest2()
     {
         var arr1 = controller.Get(1,2,3);
-        Assert.Matches("kathmandu",arr1.ToString());
+        Assert.Matches("kathmaandu",arr1.ToString());
     }
 
 }
